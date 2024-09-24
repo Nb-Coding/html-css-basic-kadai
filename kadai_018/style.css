@@ -25,16 +25,16 @@
     background-color: #87ceeb;
 }
 #middle-child01 {
-    margin-top: 100px;
-    margin-left: 100px;
+    top: 100px;
+    left: 100px;
 }
 #middle-child02 {
-    margin-top: 300px;
-    margin-left: 300px;
+    top: 300px;
+    left: 300px;
 }
 #middle-child03 {
-    margin-top: 500px;
-    margin-left: 500px;
+    top: 500px;
+    left: 500px;
 }
 
 #bottom {
@@ -45,14 +45,15 @@
     background-color: #87ceeb;
 }
 #bottom-child01, #bottom-child02, #bottom-child03 {
+    position:relative;
     width: 400px;
     height:100px;
     background-color: #e5dcf0;
 }
 
 #bottom-child02 {
-    margin-left: 200px;
+    left: 200px;
 }
 #bottom-child03 {
-    margin-left: 400px;
+    left: 400px;
 }

@@ -1,18 +1,9 @@
-body {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-}
-
 .container {
-    background: -moz-linear-gradient(bottom, #ADFECE,#B4FEAD,30% #FFF);
-    background: -webkit-linear-gradient(bottom,#ADFECE, #B4FEAD, #FFF);
-    background: linear-gradient(to top,#ADFECE, #B4FEAD, #FFF);
+    background: linear-gradient(to top,#ADFECE, #B4FEAD, #fff);
     width: 800px;
     height: 600px;
     position: relative;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .container img {
@@ -36,7 +27,7 @@ body {
     list-style: none;
     background: #F1FEAD;
     border-radius: 50%;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .dots li:nth-child(1){
@@ -44,7 +35,6 @@ body {
     left: 0;
     width: 80px;
     height: 80px;
-    opacity: 0.5;
 }
 .dots li:nth-child(2){
     bottom: 40%;
@@ -91,13 +81,13 @@ body {
 .dots li:nth-child(9){
     top: 50%;
     left: 75%;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 .dots li:nth-child(10){
     top: 40%;
     left: 80%;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 

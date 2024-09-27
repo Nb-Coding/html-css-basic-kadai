@@ -1,9 +1,17 @@
+/*リセットcssをここに*/
+* {
+    margin: 0;
+    padding: 0;
+    caret-color: transparent;
+}
+
 .container {
     background: linear-gradient(to top,#ADFECE, #B4FEAD, #fff);
     width: 800px;
     height: 600px;
     position: relative;
     margin: auto;
+    overflow: hidden;
 }
 
 .container img {
@@ -32,7 +40,7 @@
 
 .dots li:nth-child(1){
     bottom: 10%;
-    left: 0;
+    left: -2%;
     width: 80px;
     height: 80px;
 }

@@ -1,6 +1,10 @@
-* {
+h1,p,body {
     margin: 0;
     caret-color: transparent;
+}
+
+p,a {
+    font-size: 20px;
 }
 
 header {

@@ -8,60 +8,110 @@
 }
 
 body {
-    font-size: 16px;
-    margin: 0 auto;
-    max-width: 1440px;      
+    max-width: 1440px;
     min-width: 960px;
-    margin:0 auto 0 auto;
+    margin: 0 auto;
 }
-#container {
+h2{
+    font-size: 24px;
+}
+h2::after {
+    content: url("img/line.png");
+    padding: 10px;
+}
+
+#service {
+    margin: 98px auto;
     display: flex;
+    max-width: 1440px;
     align-items: center;
     margin: 98px auto 0;
     padding: 0 124px 0 0;
-    max-width: 1440px;
 }
-#container img {
+#service > div {
+    width: 50%;
+}
+.service_image {
     max-width: 629px;
     height: auto;
 }
 
-.content {
+#service_message{
     margin-left: 96px;
-    flex-direction: column;
 }
-#current_title {
-    display: inline-block;
-    padding-right: 70px;
-    position: relative;
-    color: #0d0d0d;
-    font-size: 24px;
-    font-weight: bold;
-    font-family:  'new-frank', sans-serif !important;
-    letter-spacing: .01em;
-}
-#current_title span::after {
-    position: absolute;
-    content: "";
-    width: 70px;
-    height: 1px;
-    top: 50%;
-    left: 70%;
-    background-color: red;
-}
-h3 {
-    margin : 44px auto;
+#service_message > h3 {
     font-size: 40px;
-    font-weight: bold;
-    line-height: 1.5;
-    letter-spacing: .01em;
+    margin: 44px auto;
 }
-.content p {
+#service_message > p {
     margin-bottom: 36px;
     font-size: 15px;
-    line-height: 1.8;
     letter-spacing: .04em;
 }
+
+
+
+#members{
+    margin-top: 128px;
+    flex-wrap: wrap;
+    max-width: 1340px;
+    margin: 56px auto;
+    padding: 0 70px;
+    display: flex;
+}
+.members_list {
+    display: block;
+    flex-wrap: wrap;
+    max-width: 1340px;
+    margin: 56px auto;
+    padding: 0 70px;
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+#members > ul {
+    text-decoration: none;
+}
+#members_list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+#members >ul>li {
+    width: 33%;
+    margin: 20px;
+}
+#members h3 {
+    margin-top: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .01em;;
+}
+.members_card {
+    margin: 56px auto;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+
+.members_image {
+    width: 100%;
+}
+.members_name {
+    margin-top: 12px;
+    font-size: 15px;
+    letter-spacing: .04em;;
+}
+.members_link {
+    color: red;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 
 .btn {
     display: block;

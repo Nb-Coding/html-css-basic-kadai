@@ -57,22 +57,20 @@ h2::after {
     margin: 0 auto;
     padding: 0 70px;
 }
-.members_list > a {
-    margin: 0;
-    padding: 0;
-    font-size: 100%;
-    text-decoration: none;
-}
-.members_list > ul {
-    list-style: none;
+.members_list {
     display: flex;
+    justify-content: space-between;
     max-width: 1340px;
     margin: 56px auto;
     padding: 0 70px;
 }
-.members_content {
-    width: 33%;
-    margin: 20px;
+.members_list > a {
+    width: calc(33.3% - 20px);
+    text-decoration: none;
+}
+.image_box {
+    width: 100%;
+    height: auto;
 }
 .members_content > a {
     text-decoration: none;

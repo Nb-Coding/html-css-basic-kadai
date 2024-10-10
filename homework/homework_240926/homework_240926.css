@@ -1,7 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
     font-size: 100%;
     font-family: 'Noto Sans JP', sans-serif;
     caret-color: transparent;
@@ -50,38 +47,36 @@ h2::after {
 }
 
 
-
+/*241003*/
 #members{
     margin-top: 128px;
-    flex-wrap: wrap;
-    max-width: 1340px;
-    margin: 56px auto;
-    padding: 0 70px;
-    display: flex;
+    width: 100%;
 }
-.members_list {
-    display: block;
-    flex-wrap: wrap;
+.members_title {
     max-width: 1340px;
-    margin: 56px auto;
+    margin: 0 auto;
     padding: 0 70px;
 }
-a {
+.members_list > a {
     margin: 0;
     padding: 0;
     font-size: 100%;
-}
-#members > ul {
     text-decoration: none;
 }
-#members_list {
-    display: flex;
+.members_list > ul {
     list-style: none;
-    justify-content: center;
+    display: flex;
+    max-width: 1340px;
+    margin: 56px auto;
+    padding: 0 70px;
 }
-#members >ul>li {
+.members_content {
     width: 33%;
     margin: 20px;
+}
+.members_content > a {
+    text-decoration: none;
+    color: #000;
 }
 #members h3 {
     margin-top: 18px;
@@ -89,16 +84,16 @@ a {
     font-weight: bold;
     letter-spacing: .01em;;
 }
-.members_card {
-    margin: 56px auto;
+.image_box {
+    overflow: hidden;
+}
+img {
     width: 100%;
-    flex-wrap: wrap;
-    padding: 0 70px;
+}
+img:hover {
+    transform:scale(1.2,1.2);
 }
 
-.members_image {
-    width: 100%;
-}
 .members_name {
     margin-top: 12px;
     font-size: 15px;
